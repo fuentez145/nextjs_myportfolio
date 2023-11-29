@@ -24,7 +24,7 @@ const IconList = ({icon , index} : Props) => {
         delay: index * 0.1,
         duration : 0.5,
         ease: 'easeInOut'
-    }}  className="text-7xl cursor-pointer" key={index}>
+    }}  className="text-7xl" key={index}>
     {icon}
   </motion.li>
   )
