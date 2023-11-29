@@ -8,7 +8,7 @@ const NavBar = () => {
       {/* <AcmeLogo /> */}
       <p className="font-bold text-inherit">ACME</p>
     </NavbarBrand>
-    <NavbarContent className="hidden sm:flex gap-4" justify="center">
+    <NavbarContent className=" sm:flex gap-4" justify="center">
       <NavbarItem isActive>
         <UILink as={Link}  color="foreground" className="text-white" aria-current="page" href="/">
           Home
