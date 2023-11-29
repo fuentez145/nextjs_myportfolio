@@ -15,25 +15,24 @@ import { motion } from "framer-motion";
 import IconList from "@/components/ui/IconList";
 const SecondStack = () => {
   const icons = [
-    <TbBrandNextjs />,
-    <FaLaravel />,
-    <FaHtml5 />,
-    <IoLogoCss3 />,
-    <SiJavascript />,
-    <FaReact />,
-    <SiMysql />,
-    <IoLogoPython />,
-    <FaPhp />,
-    <FaGitAlt />,
-    <SiTypescript />,
-    <FaBootstrap />,
+    <TbBrandNextjs key="TbBrandNextjs" />,
+    <FaLaravel key="FaLaravel" />,
+    <FaHtml5 key="FaHtml5" />,
+    <IoLogoCss3 key="IoLogoCss3" />,
+    <SiJavascript key="SiJavascript" />,
+    <FaReact key="FaReact" />,
+    <SiMysql key="SiMysql" />,
+    <IoLogoPython key="IoLogoPython" />,
+    <FaPhp key="FaPhp" />,
+    <FaGitAlt key="FaGitAlt" />,
+    <SiTypescript key="SiTypescript" />,
+    <FaBootstrap key="FaBootstrap" />,
   ];
 
   return (
     <div className="m-2 text-white mt-9">
       <ul className="flex  items-center justify-around flex-wrap">
         {icons.map((icon, index) => (
-     
           <IconList icon={icon} key={index} index={index} />
         ))}
       </ul>
