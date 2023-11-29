@@ -7,7 +7,7 @@ const FirstStack = () => {
   return (
     <>
       <div className="flex flex-col flex-col-reverse sm:grid sm:grid-cols-2 relative mt-8 m-2 gap-2">
-        <div className="text-white bg-white/20 flex flex-rows items-center">
+        <div className="text-white flex flex-rows items-center">
           <div className="m-2 space-y-2">
             <p className="text-lg">Hi all. I am </p>
             <h1 className={`${merriweather.className} text-3xl  sm:text-5xl `}>
