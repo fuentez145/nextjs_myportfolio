@@ -56,7 +56,7 @@ const CardProjects = ({
         delay: index * 0.1,
         duration : 0.5,
         ease: 'easeInOut'
-      }} >
+      }} viewport={{ amount : 0 }} >
       <Card
         onPress={onOpen}
         key={index}

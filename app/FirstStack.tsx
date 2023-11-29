@@ -24,7 +24,7 @@ const FirstStack = () => {
           <Image
             src="/profile.jpg"
             alt="Picture of the author"
-            className="rounded-full    p-2 bg-gradient-to-tr from-black via-slate-500 to-white"
+            className="rounded-full    p-2 bg-gradient-to-tr from-black via-white  to-black"
             width={500}
             height={500}
           />
