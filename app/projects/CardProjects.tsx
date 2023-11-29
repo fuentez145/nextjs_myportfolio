@@ -74,7 +74,7 @@ const CardProjects = ({
               <Chip  variant="flat" color="success">Success</Chip>
               <Chip variant="flat" color="warning">Warning</Chip>
               <Chip  variant="flat" color="danger">Danger</Chip>
-            </div>{" "} */} <Chip startContent={<TbBrandNextjs  size="sm" />} variant="flat" color="default">NextJS</Chip>
+            </div>{" "} */} <Chip startContent={<TbBrandNextjs   />} variant="flat" color="default">NextJS</Chip>
           </small>
           <h4 className="font-bold text-large">{project.title}</h4>
         </CardHeader>
@@ -84,6 +84,7 @@ const CardProjects = ({
             alt="Card background"
             className="object-cover rounded-xl"
             src={project.image}
+            priority={true}
             width={300}
             height={300}
           />

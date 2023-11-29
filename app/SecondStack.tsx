@@ -34,7 +34,7 @@ const SecondStack = () => {
       <ul className="flex  items-center justify-around flex-wrap">
         {icons.map((icon, index) => (
      
-          <IconList icon={icon} index={index} />
+          <IconList icon={icon} key={index} index={index} />
         ))}
       </ul>
     </div>

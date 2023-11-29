@@ -11,7 +11,7 @@ const page = () => {
     <div className="text-white ">
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 m-2">
         {projects?.map((project, index) => (
-         <CardProjects project={project} index={index} />
+         <CardProjects project={project} key={index} index={index} />
           
         ))}
       </div>
